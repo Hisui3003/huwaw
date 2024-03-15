@@ -31,13 +31,13 @@
 
 
 <!-- page wrapper -->
-<body>
+<body class="bg-color-1 ">
 
     <div class="boxed_wrapper">
 
 
         <!-- preloader -->
-      @include('frontend.home.preload')
+      {{-- @include('frontend.home.preload') --}}
         <!-- preloader end -->
 
 
@@ -47,7 +47,7 @@
 
 
         <!-- main header -->
-        @include('frontend.home.header')
+        {{-- @include('frontend.home.header') --}}
         <!-- main-header end -->
 
         <!-- Mobile Menu  -->
@@ -58,15 +58,15 @@
        @yield('main')
 
         <!-- main-footer -->
-       @include('frontend.home.footer')
+       {{-- @include('frontend.home.footer') --}}
         <!-- main-footer end -->
 
 
 
         <!--Scroll to top-->
-        <button class="scroll-top scroll-to-target" data-target="html">
+        {{-- <button class="scroll-top scroll-to-target" data-target="html">
             <span class="fal fa-angle-up"></span>
-        </button>
+        </button> --}}
     </div>
 
 
